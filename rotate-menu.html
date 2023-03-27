@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate menu</title>
+<style>
+    .main {
+        height: 200px;
+        width: 300px;
+        background: grey;
+        margin-top: 40px;
+        position: relative;
+        
+    }
+
+    .main .border {
+        height: 50px;
+        width: 200px;
+        border: 2px solid;
+        border-radius: 50%;
+        padding: 30px;
+        transform: rotate(-20deg);
+        position: absolute;
+        top: 35px;
+        left: 10px;
+        
+    }
+
+    .main .text {
+        position: absolute;
+        top: 90px;
+        left: 90px;
+    }
+</style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="border"></div>
+        <div class="text">Some text</div>
+    </div>
+</body>
+</html>
